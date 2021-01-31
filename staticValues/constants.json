@@ -1,0 +1,9 @@
+{
+  "shortTimeout": 7500,
+  "getPageTimeout": 25000,
+  "jasmineTimeout": 60000,
+  "requestTimeouts": 10000,
+  "tolerance": 2500,
+  "clickAction": 500,
+  "loginTimeout": 10000
+}

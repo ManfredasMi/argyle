@@ -1,0 +1,19 @@
+{
+  "backend": {
+    "login": {
+      "success": {
+        "httpStatusCode": 200
+      },
+      "loginCreds": {
+        "email": "argyle-test-3000@mailinator.com",
+        "password": "8q!yE0s^vLdJF^h0"
+      }
+    }
+  },
+  "frontend": {
+    "loginPage": {
+      "username": "argyle-test-3000@mailinator.com",
+      "password": "8q!yE0s^vLdJF^h0"
+    }
+  }
+}

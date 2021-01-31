@@ -1,0 +1,35 @@
+{
+  "name": "argyle",
+  "version": "1.0.0",
+  "description": "sandbox tests",
+  "main": "config.base.js",
+  "scripts": {
+    "test": "protractor config.js",
+    "codefix": "prettier --write ./**/*{.js,json} && eslint . --fix",
+    "testApi": "jasmine --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManfredasMi/argyle.git"
+  },
+  "author": "MM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManfredasMi/argyle/issues"
+  },
+  "homepage": "https://github.com/ManfredasMi/argyle#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jasmine": "^2.8.0",
+    "protractor": "^7.0.0",
+    "selenium": "^2.20.0",
+    "webdriver-manager": "^12.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.2.1"
+  }
+}
